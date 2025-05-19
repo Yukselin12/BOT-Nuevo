@@ -7,7 +7,8 @@ voices = engine.getProperty("voices")
 for index, voice in enumerate(voices):
     print(f"voz {index} - {voice.name} - {voice.languages}")
 
-engine.setProperty("voice", voices[1].id)
+len = int(input("Elije una voz, Ingles = 0 Español = 1 "))
+engine.setProperty("voice", voices[len].id)
 
 
 
