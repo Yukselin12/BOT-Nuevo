@@ -1,4 +1,5 @@
 import pyttsx3
+import requests
 
 engine = pyttsx3.init()
 engine.setProperty("rate",150)
